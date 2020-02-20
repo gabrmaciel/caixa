@@ -1,0 +1,159 @@
+*{font-family:Lato, Arial}
+
+.width-100{
+    width: 100%;
+}
+
+.tabela-top{
+    background-color:#d6d6d6;
+    font-size:17px;
+    color:#777777;
+}
+
+.tabela-linha{
+    background-color:#fff;
+    height:40px;
+}
+
+.tabela-linha:nth-child(even){
+    background-color:#f5f5f5
+}
+
+.tabela-linha-div:nth-of-type(even) .tabela-linha{
+    background-color:#f5f5f5
+}
+
+.tabela-input{
+    width:100%;
+    border:none;
+    outline-style:none;
+    text-align:center;
+    box-sizing:border-box;
+    cursor:pointer;
+}
+
+.tabela-input:hover{
+    background-color:#fcfcfc;
+    border:2px solid rgba(0, 111, 230, 0.2);
+}
+
+
+.tabela-linha-div:hover:nth-of-type(even) .tabela-linha{
+    background-color:#f5f5f5
+}
+
+.tabela-input:focus{
+    border:2px solid #007bff;
+}
+
+.tabela-preco{
+    background-color:#f5f5f5;
+    color:#555555;
+}
+
+.tabela-add{
+    opacity:0.5;
+}
+
+.tabela-add:hover{
+    opacity:1;
+}
+
+.preco-rs{
+    font-size:16px;
+}
+
+.preco-valor{
+    border:none;
+    font-weight:700;
+    font-size:48px;
+}
+
+.preco-valor-input{
+    background-color:transparent;
+    width:calc(100% + 40px);
+    margin-left:-20px;
+    color:#555555;
+    outline-style: none;
+}
+
+.frase-erro{
+    display:block;
+    width:100%;
+    font-size:14px;
+    color:#dc3545;
+    margin-top:10px;
+}
+
+#produto_group{
+    width:100%;
+}
+
+tr:hover{
+    background-color:#F5F5F5;
+}
+
+#preco-pagamento:focus{
+    border:2px solid #ce9c04;
+    padding-left: calc(1rem - 2px) !important;
+    padding-right: calc(1rem - 2px) !important;
+    padding-top: calc(.5rem - 2px) !important;
+    padding-bottom: calc(.5rem - 2px) !important;
+}
+
+#pagar-cartao{
+    cursor:pointer;
+}
+
+.aviso-div{
+    background:#ffe1eb;
+}
+
+.salvar-compra{
+    font-size:22px;
+    letter-spacing: 0.66px;
+    border-radius: 4px;
+}
+
+.bloco-esconde{
+    position:fixed;
+    top:0px;
+    left:0px;
+    width:100%;
+    height:100%;
+    background-color:rgba(0,0,0,0.4);
+    background-image: url('../img/load.gif');
+    background-size:96px 96px;
+    background-repeat:no-repeat;
+    background-position: center center;
+}
+
+.preco-troco-div-focus{
+    border:2px solid #17a2b8;
+    padding-left: calc(1rem - 2px) !important;
+    padding-right: calc(1rem - 2px) !important;
+    padding-top: calc(.5rem - 2px) !important;
+    padding-bottom: calc(.5rem - 2px) !important;
+}
+
+.preco-troco-div-focus-transparente{
+    border:2px solid #F5F5F5;
+    padding-left: calc(1rem - 2px) !important;
+    padding-right: calc(1rem - 2px) !important;
+    padding-top: calc(.5rem - 2px) !important;
+    padding-bottom: calc(.5rem - 2px) !important;
+    transition:0.4s;
+}
+
+.input-transparente{
+    background:transparent;
+    border:none;
+    outline: none;
+    width:100%;
+}
+
+.input-transparente:disabled{
+    background:transparent;
+    border:none;
+    outline: none;
+}
